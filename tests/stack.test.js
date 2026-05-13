@@ -22,5 +22,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 test('peek should return the latest pushed value', () => {
     stack.push("hund");
 
-    expect(stack.peek()).toEqual("katt");
+    expect(stack.peek()).toEqual("hund");
 });
