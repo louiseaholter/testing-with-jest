@@ -34,10 +34,3 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
-
-//nytt test
-test('stack length should increase after push', () => {
-    stack.push("hund");
-
-    expect(stack.size()).toEqual(1);
-});

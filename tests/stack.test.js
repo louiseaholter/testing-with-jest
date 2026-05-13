@@ -17,3 +17,10 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBeDefined();
     expect(stack.peek()).toBe(42);
 });
+
+//mitt test
+test('peek should return the latest pushed value', () => {
+    stack.push("hund");
+
+    expect(stack.peek()).toEqual("katt");
+});
