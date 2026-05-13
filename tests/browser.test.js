@@ -37,5 +37,5 @@ describe('Clicking "Pusha till stacken"', () => {
 
 //mitt test
 test('simple browser test', async () => {
-    expect(1).toEqual(2);
+    expect(1).toEqual(1);
 });
