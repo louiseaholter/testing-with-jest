@@ -38,5 +38,5 @@ describe('Clicking "Pusha till stacken"', () => {
 //mitt test
 test('Efter pushat "Bananer" ska det visas högst uppe i stacken', async () => {
     let stack = await driver.findElement(By.id('top_of_stack')).getText();
-    expect(stack).toEqual("Äpplen");
+    expect(stack).toEqual("Bananer");
 });
